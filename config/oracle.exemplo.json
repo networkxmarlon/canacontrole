@@ -1,0 +1,4 @@
+{
+  "usuario": "SEU_USUARIO_ORACLE",
+  "dsn": "HOST_ORACLE:1521/NOME_DO_SERVICO"
+}

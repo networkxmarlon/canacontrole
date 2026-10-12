@@ -1,0 +1,41 @@
+{
+  "versao": 1,
+  "registros": [
+    {
+      "id": "11111111-1111-4111-8111-111111111111",
+      "talhao": "CANA-01",
+      "data_colheita": "2025-08-01",
+      "area_ha": "10",
+      "colhida_t": "800",
+      "amostra_m2": "10",
+      "perda_kg": "4",
+      "preco_t": "150",
+      "origem": "sintetico",
+      "observacao": "Exemplo inventado para demonstrar a aplicação."
+    },
+    {
+      "id": "22222222-2222-4222-8222-222222222222",
+      "talhao": "CANA-02",
+      "data_colheita": "2025-08-01",
+      "area_ha": "8",
+      "colhida_t": "600",
+      "amostra_m2": "10",
+      "perda_kg": "8",
+      "preco_t": "150",
+      "origem": "sintetico",
+      "observacao": "Exemplo inventado para demonstrar a aplicação."
+    },
+    {
+      "id": "33333333-3333-4333-8333-333333333333",
+      "talhao": "CANA-03",
+      "data_colheita": "2025-08-01",
+      "area_ha": "12",
+      "colhida_t": "1000",
+      "amostra_m2": "20",
+      "perda_kg": "2",
+      "preco_t": "150",
+      "origem": "sintetico",
+      "observacao": "Exemplo inventado para demonstrar a aplicação."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+
+CANACONTROLE — controle de perdas visíveis na colheita de cana
+MODO: DEMONSTRAÇÃO JSON — não comprova integração Oracle
+Números: vírgula OU ponto decimal; sem separador de milhar. Ctrl+C encerra.
+
+1 Cadastrar | 2 Listar | 3 Editar | 4 Excluir | 5 Relatório
+6 Exportar TXT | 7 Exportar JSON | 8 Importar JSON | 9 Criar tabela Oracle | 0 Sair
+Escolha: Caminho do JSON (Enter usa dados/exemplo_sintetico.json):   1. CANA-01 | 2025-08-01 | sintetico | 800,00 t colhidas
+  2. CANA-02 | 2025-08-01 | sintetico | 600,00 t colhidas
+  3. CANA-03 | 2025-08-01 | sintetico | 1.000,00 t colhidas
+A importação adiciona colheitas. IDs ou talhão/data repetidos cancelam TODO o lote.
+Importar 3 colheita(s) para o modo demo? Digite SIM para confirmar: 3 colheita(s) importada(s).
+
+1 Cadastrar | 2 Listar | 3 Editar | 4 Excluir | 5 Relatório
+6 Exportar TXT | 7 Exportar JSON | 8 Importar JSON | 9 Criar tabela Oracle | 0 Sair
+Escolha: CANACONTROLE — PERDAS VISÍVEIS NA COLHEITA DE CANA
+Estimativas por amostragem; não representam prejuízo líquido comprovado.
+Alerta didático configurado: perda >= 5,00%.
+Critério operacional escolhido para o projeto; não é limite agronômico universal.
+
+ORIGEM: SINTÉTICO — demonstração, sem medição de fazenda
+Ordem de inspeção: maior valor estimado de cana perdida primeiro.
+Talhão               Data         Perda t/ha    Perda %    Valor estimado R$
+CANA-02              2025-08-01         8,00       9,64             9.600,00
+  ALERTA: conferir amostragem e inspecionar a operação com o responsável técnico.
+CANA-01              2025-08-01         4,00       4,76             6.000,00
+CANA-03              2025-08-01         1,00       1,19             1.800,00
+Colheitas: 3 | Área somada: 30,00 ha
+Perda estimada: 116,00 t | Percentual agregado por massa: 4,61%
+Valor de cana perdida estimado: R$ 17.400,00
+Cenário hipotético: reduzir pela metade a massa perdida corresponderia a R$ 8.700,00 em cana, antes dos custos.
+
+LIMITAÇÕES: a extrapolação depende de amostras representativas; não mede perdas invisíveis, qualidade/ATR nem perdas de transporte.
+A área somada é de operações cadastradas e pode incluir o mesmo talhão em datas distintas.
+
+
+1 Cadastrar | 2 Listar | 3 Editar | 4 Excluir | 5 Relatório
+6 Exportar TXT | 7 Exportar JSON | 8 Importar JSON | 9 Criar tabela Oracle | 0 Sair
+Escolha: TXT exportado: /workspace/scratch/78ef09e01803/CanaControle/resultados/relatorio_perdas.txt
+
+1 Cadastrar | 2 Listar | 3 Editar | 4 Excluir | 5 Relatório
+6 Exportar TXT | 7 Exportar JSON | 8 Importar JSON | 9 Criar tabela Oracle | 0 Sair
+Escolha: JSON exportado: /workspace/scratch/78ef09e01803/CanaControle/resultados/colheitas.json
+
+1 Cadastrar | 2 Listar | 3 Editar | 4 Excluir | 5 Relatório
+6 Exportar TXT | 7 Exportar JSON | 8 Importar JSON | 9 Criar tabela Oracle | 0 Sair
+Escolha: Programa encerrado.

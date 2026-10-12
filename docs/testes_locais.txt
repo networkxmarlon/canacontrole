@@ -1,0 +1,20 @@
+test_corrompido_preservado (test_cana.ArquivosEDemo.test_corrompido_preservado) ... ok
+test_crud_persistencia (test_cana.ArquivosEDemo.test_crud_persistencia) ... ok
+test_json_estrutura_constantes_e_chaves (test_cana.ArquivosEDemo.test_json_estrutura_constantes_e_chaves) ... ok
+test_json_roundtrip (test_cana.ArquivosEDemo.test_json_roundtrip) ... ok
+test_lote_invalido_nao_grava_parte_valida (test_cana.ArquivosEDemo.test_lote_invalido_nao_grava_parte_valida) ... ok
+test_bind_decimal_e_commit (test_cana.ContratoOracleComDoubles.test_bind_decimal_e_commit) ... ok
+test_exclusao_exige_linha_existente (test_cana.ContratoOracleComDoubles.test_exclusao_exige_linha_existente) ... ok
+test_rollback_em_erro (test_cana.ContratoOracleComDoubles.test_rollback_em_erro) ... ok
+test_data_texto_origem_e_area (test_cana.Regras.test_data_texto_origem_e_area) ... ok
+test_duplicata_talhao_data_normalizada (test_cana.Regras.test_duplicata_talhao_data_normalizada) ... ok
+test_entradas_numericas (test_cana.Regras.test_entradas_numericas) ... ok
+test_media_por_massa (test_cana.Regras.test_media_por_massa) ... ok
+test_relatorio_separa_origens (test_cana.Regras.test_relatorio_separa_origens) ... ok
+test_unidades_e_valor (test_cana.Regras.test_unidades_e_valor) ... ok
+test_zero_perda_e_perda_total (test_cana.Regras.test_zero_perda_e_perda_total) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.015s
+
+OK
